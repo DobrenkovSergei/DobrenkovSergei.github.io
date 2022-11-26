@@ -1,0 +1,110 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: rgb(240,240,240);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+header {
+  width: 95%;
+  max-width: 788px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px;
+  margin-top: 15px;
+
+}
+.share-button {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: rgb(37, 37, 37);
+
+}
+
+
+.share-button svg {
+  margin-left: 7px;
+  margin-top: 5px;
+
+}
+.share-button:hover {
+  border: 1px solid rgb(240,240,240);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: scale(1.09);
+}
+
+.container {
+  width: 91%;
+  max-width: 680px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+h1{
+font-size: 20px;
+margin-bottom: 30px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+.tile {
+  width: 100%;
+  background-color:rgb(37,37, 37);
+  margin: 7px;
+  border-radius: 17px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.tile-share-button{
+  margin: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(80, 80, 80);
+  
+
+}
+.tile-share-button svg{
+    margin-left: 7px;
+    margin-top: 5px; 
+  }
+
+.image-container {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  overflow: hidden;
+
+}
+.image-container img {
+  height: 100%;
+}
+
+.icon {
+  margin: 4px 8px;
+  width: 44px;
+  height: 44px;
+}
+.tile:hover {
+  border: 1px solid rgb(240, 240, 240);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: scale(1.02);
+}
+
+  /* Эффект наведения на картинку */
+.image-container:hover {
+  border: 1px solid rgb(240, 240, 240);
+}
+
