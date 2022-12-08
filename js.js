@@ -3,7 +3,7 @@ var button = document.querySelector('.share-button');
 
 /* Тут на кнопку навешиваем обрабочик, который ждёт клика и тогда запустит логику */
 button.addEventListener('click', function() {
-	alert('READY FOR TEST')
+	alert('🚀 READY FOR TEST 🚀')
 })
 
 const shareButtons = document.querySelectorAll('.tile-share-button')
